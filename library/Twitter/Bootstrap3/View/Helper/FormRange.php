@@ -9,16 +9,16 @@
  */
 
 /**
- * Helper to generate a "tel" element
+ * Helper to generate a "range" element
  * 
  * @category Forms
  * @package Twitter_Bootstrap3_View
  * @subpackage Helper
  */
-class Twitter_Bootstrap3_View_Helper_FormTel extends Twitter_Bootstrap3_View_Helper_FormText
+class Twitter_Bootstrap3_View_Helper_FormRange extends Twitter_Bootstrap3_View_Helper_FormText
 {
     /**
-     * Generates a 'tel' element.
+     * Generates a 'range' element.
      *
      * @access public
      *
@@ -32,8 +32,8 @@ class Twitter_Bootstrap3_View_Helper_FormTel extends Twitter_Bootstrap3_View_Hel
      *
      * @return string The element XHTML.
      */
-    public function formTel($name, $value = null, $attribs = null)
+    public function formRange($name, $value = null, $attribs = null)
     {
-        return $this->_formText('email', $name, $value, $attribs);
+        return $this->_formText('range', $name, $value, $attribs);
     }
 }
