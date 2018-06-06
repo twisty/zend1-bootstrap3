@@ -3,7 +3,11 @@
     "description": "Twitter Bootstrap v.3 Forms for Zend Framework v.1",
     "require": {
         "php": ">=7.0",
-        "diablomedia/zendframework1": "~3.0"
+        "diablomedia/zendframework1-config": "^1.0",
+        "diablomedia/zendframework1-exception": "^1.0",
+        "diablomedia/zendframework1-filter": "^1.0",
+        "diablomedia/zendframework1-form": "^1.0",
+        "diablomedia/zendframework1-view": "^1.0"
     },
     "autoload": {
         "psr-0": { "Twitter_Bootstrap3_": "library/" }
