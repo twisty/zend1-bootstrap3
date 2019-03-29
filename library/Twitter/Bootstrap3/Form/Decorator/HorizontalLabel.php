@@ -33,7 +33,7 @@ class Twitter_Bootstrap3_Form_Decorator_HorizontalLabel extends Zend_Form_Decora
      */
     public function getClass()
     {
-        $class = parent::getClass() . ' col-form-label';
+        $class = parent::getClass() . ' col-form-label text-lg-right';
         
         $dimensionLabel = $this->getDimension();
         if (!empty($dimensionLabel)) {
