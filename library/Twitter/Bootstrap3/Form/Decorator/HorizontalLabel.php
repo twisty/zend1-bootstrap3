@@ -21,7 +21,7 @@ class Twitter_Bootstrap3_Form_Decorator_HorizontalLabel extends Zend_Form_Decora
      * Label dimension
      * @var string 
      */
-    protected $_dimension = 'sm-2';
+    protected $_dimension = 'lg-3';
     
     /**
      * Get class with which to define label
