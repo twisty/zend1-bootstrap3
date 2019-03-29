@@ -41,8 +41,8 @@ class Twitter_Bootstrap3_Form_Horizontal extends Twitter_Bootstrap3_Form
             )),
             array('Errors'),
             array('Description', array(
-                'tag' => 'p',
-                'class' => 'help-block',
+                'tag' => 'small',
+                'class' => 'form-text text-muted',
             )),
             array('HorizontalControls'),
             array('HorizontalLabel'),
@@ -61,8 +61,8 @@ class Twitter_Bootstrap3_Form_Horizontal extends Twitter_Bootstrap3_Form
         return array(
             array('Errors'),
             array('Description', array(
-                'tag' => 'p',
-                'class' => 'help-block',
+                'tag' => 'small',
+                'class' => 'form-text text-muted',
             )),
             array('HorizontalControls'),
             array('HorizontalLabel'),
@@ -83,8 +83,8 @@ class Twitter_Bootstrap3_Form_Horizontal extends Twitter_Bootstrap3_Form
             array('CheckboxLabel'),
             array('Errors'),
             array('Description', array(
-                'tag' => 'p',
-                'class' => 'help-block',
+                'tag' => 'small',
+                'class' => 'form-text text-muted',
             )),
             array('CheckboxControls'),
             array('HorizontalControls', array(
@@ -105,8 +105,8 @@ class Twitter_Bootstrap3_Form_Horizontal extends Twitter_Bootstrap3_Form
         return array(
             array('Tooltip'),
             array('Description', array(
-                'tag' => 'p',
-                'class' => 'help-block',
+                'tag' => 'small',
+                'class' => 'form-text text-muted',
             )),
             array('ViewHelper'),
             array('HorizontalControls', array(
@@ -127,8 +127,8 @@ class Twitter_Bootstrap3_Form_Horizontal extends Twitter_Bootstrap3_Form
         return array(
             array('Tooltip'),
             array('Description', array(
-                'tag' => 'p',
-                'class' => 'help-block',
+                'tag' => 'small',
+                'class' => 'form-text text-muted',
             )),
             array('Image'),
             array('Errors'),
