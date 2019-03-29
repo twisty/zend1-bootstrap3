@@ -27,13 +27,13 @@ class Twitter_Bootstrap3_Form_Decorator_HorizontalControls extends Zend_Form_Dec
      * Controls container dimension
      * @var string 
      */
-    protected $_dimension = 'sm-10';
+    protected $_dimension = 'lg-9';
     
     /**
      * Label dimension
      * @var string 
      */
-    protected $_dimensionLabel= 'sm-2';
+    protected $_dimensionLabel= 'lg-3';
     
     /**
      * Обернуть элементы управления в контейнер
@@ -57,7 +57,7 @@ class Twitter_Bootstrap3_Form_Decorator_HorizontalControls extends Zend_Form_Dec
             $dimensionLabel = $this->getDimensionLabel();
             if (!empty($dimensionLabel)) {
                 foreach (explode(',', $dimensionLabel) as $size) {
-                    $class .= ' col-' . trim(str_replace('-', '-offset-', $size));
+                    $class .= ' offset-' . trim($size);
                 }
             }
         }
