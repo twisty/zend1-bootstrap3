@@ -210,11 +210,11 @@ abstract class Twitter_Bootstrap3_Form extends Zend_Form
             )),
             array('Errors'),
             array('Description', array(
-                'tag' => 'p',
-                'class' => 'help-block',
+                'tag' => 'small',
+                'class' => 'form-text text-muted',
             )),
             array('Label', array(
-                'class' => 'control-label',
+                'class' => '',
             )),
             array('Container'),
             array('FieldSize'),
@@ -231,11 +231,11 @@ abstract class Twitter_Bootstrap3_Form extends Zend_Form
         return array(
             array('Errors'),
             array('Description', array(
-                'tag' => 'p',
-                'class' => 'help-block',
+                'tag' => 'small',
+                'class' => 'form-text text-muted',
             )),
             array('Label', array(
-                'class' => 'control-label',
+                'class' => 'form-col-label',
             )),
             array('Container'),
             array('FieldSize'),
@@ -254,8 +254,8 @@ abstract class Twitter_Bootstrap3_Form extends Zend_Form
             array('CheckboxLabel'),
             array('Errors'),
             array('Description', array(
-                'tag' => 'p',
-                'class' => 'help-block',
+                'tag' => 'small',
+                'class' => 'form-text text-muted',
             )),
             array('CheckboxControls'),
             array('Container'),
@@ -273,8 +273,8 @@ abstract class Twitter_Bootstrap3_Form extends Zend_Form
         return array(
             array('Tooltip'),
             array('Description', array(
-                'tag' => 'p',
-                'class' => 'help-block',
+                'tag' => 'small',
+                'class' => 'form-text text-muted',
             )),
             array('ViewHelper'),
             array('Container'),
@@ -292,8 +292,8 @@ abstract class Twitter_Bootstrap3_Form extends Zend_Form
         return array(
             array('Tooltip'),
             array('Description', array(
-                'tag' => 'p',
-                'class' => 'help-block',
+                'tag' => 'small',
+                'class' => 'form-text text-muted',
             )),
             array('Image'),
             array('Errors'),
