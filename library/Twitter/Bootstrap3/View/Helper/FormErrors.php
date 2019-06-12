@@ -27,9 +27,9 @@ class Twitter_Bootstrap3_View_Helper_FormErrors extends Zend_View_Helper_FormErr
     public function formErrors($errors, array $options = null)
     {
         if (empty($options['class'])) {
-            $options['class'] = 'form-text';
+            $options['class'] = 'form-text errors';
         }
-        
+
         return parent::formErrors($errors, $options);
     }
 }
